@@ -1,0 +1,189 @@
+/*初始化 样式*/
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	background: url(../images/body_bg.jpg) #cad8e3 repeat-x center top;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif,"宋体";
+	}
+ul,li{
+	list-style:none;
+	}
+a{
+	color:#0066cb;
+	text-decoration:none;
+	}
+a:hover{
+	color:#f00;
+	text-decoration:underline;
+	}
+.topbox,.contbox,.nav,.pos{
+	width:960px;
+	margin:0 auto;
+	height:auto;
+	overflow:hidden;
+	background-color:#FFF;
+	padding-bottom:5px;
+	padding-left:2px;
+	}
+img{
+	border:none;
+	}
+/*-------以上为全站初始化样式信息------->
+<!-------以下为全站头部样式信息---------*/
+.contbox{
+	padding-bottom:0;
+	}
+.topbox{
+	margin-top:10px;
+	}
+/*logo 二级导航样式*/
+.logo_snav{
+	}
+.logo_snav .logo{
+	width:180px;
+	float:left;
+	margin-top:10px;
+	margin-left:15px;
+	}
+.logo_snav .snav{
+	width:730px;
+	float:right;
+	height:auto;
+	overflow:hidden;
+	padding-top:8px;
+	font-size:12px;
+	}
+.logo_snav .snav li{
+	float:left;
+	margin-top:8px;
+	margin-right:5px;
+	padding-right:7px;
+	border-right:#999 1px dashed;
+	}
+.logo_snav .snav li p{
+	line-height:20px;
+	}
+.logo_snav .snav li p a{
+	margin-left:3px;
+	color:#333;
+	}
+.logo_snav .snav li p a:hover{
+	color:#0066cb;
+	}
+ /*主导航 样式*/
+.nav{
+	background:url(../images/navbg.png) repeat-x;
+	padding-bottom:0px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+.nav .nav_cont{
+	margin-left:5px;
+	height:40px;
+	overflow:hidden;
+	}
+.nav .nav_cont li{
+	float:left;
+	margin-top:6px;
+	margin-right:10px;
+	background:url(../images/nav_line.png) right no-repeat;
+	line-height:30px;
+	padding-right:13px;
+	}
+.nav .nav_cont li a{
+	color:#fff;
+	font-size:14px;
+	width:70px;
+	display:block;
+	text-align:center;
+	}
+.nav .nav_cont li a:hover{
+	text-decoration:none;
+	background:url(../images/abg.png) no-repeat 0 3px;
+	color:#000;
+	}
+.nav .nav_cont li a.tese{
+	width:95px;
+	}
+.nav .nav_cont li a:hover.tese{
+	background:url(../images/tese.png) no-repeat 2px 3px;
+	}
+.nav .nav_cont li.comcn{
+	border-left:#fff 2px solid;
+	}
+.nav .nav_cont li.last{
+	background-image:none;
+	margin-right:3px;
+	border-right:#fff 2px solid;
+	}
+.nav .nav_cont li.comcn,.nav .nav_cont li.last{
+	background-color:#f70;
+	margin:0;
+	line-height:40px;
+	}
+.nav .nav_cont li.comcn a,.nav .nav_cont li.last a{
+	font-weight:bold;
+	width:60px;
+	margin:3px 5px 0 10px;
+	text-align:left;
+	padding-left:2px;
+	}
+.nav .nav_cont li.comcn a:hover,.nav .nav_cont li.last a:hover{
+	color:#000;
+	background:none;
+	}
+ /*当前位置 样式*/
+.pos{
+	height:32px;
+	}
+.pos .pos_cont{
+	font-size:14px;
+	}
+.pos .pos_cont .position{
+	float:left;
+	width:400px;
+	padding-top:8px;
+	*padding-top:5px;
+	line-height:25px;
+	}
+.pos .pos_cont .position a{
+	}
+.pos .pos_cont .hottags{
+	float:left;
+	width:260px;
+	text-align:right;
+	padding-top:10px;
+	}
+.pos .pos_cont .hottags a{
+	margin-right:5px;
+	color:#F00;
+	}
+.pos .pos_cont .search{
+	float:right;
+	width:235px;
+	text-align:right;
+	height:32px;
+	background:url(../images/search_txt.png) no-repeat 0 5px;
+	padding-left:35px;
+	}
+.pos .pos_cont .search .txt_input{
+	border:none;
+	width:170px;
+	float:left;
+	height:20px;
+	margin:0;
+	margin-top:8px;
+	padding-top:1px;
+	*border:0;
+	}
+.pos .pos_cont .search .button{
+	margin-top:3px;
+	float:right;
+	height:30px;
+	width:50px;
+	background:url(../images/search_bnt.png);
+	}

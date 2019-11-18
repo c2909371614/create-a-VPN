@@ -1,0 +1,3 @@
+ÕËºÅ:c2909371614@outlook.com
+ÃÜÂë:Caopengxiao123
+ÃüÁî£ºwget ¨Cno-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh

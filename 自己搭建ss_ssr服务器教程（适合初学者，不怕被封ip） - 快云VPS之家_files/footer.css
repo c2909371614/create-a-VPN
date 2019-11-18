@@ -1,0 +1,124 @@
+/*底部版权 样式*/
+.foot{
+	background:#efefef;
+	border-top:#e2e2e2 1px solid;
+	margin-top:10px;
+	height:auto;
+	overflow:hidden;
+	width:960px;
+	margin:0 auto;
+	}
+.foot .footbox{
+	width:960px;
+	margin:0 auto;
+	padding-top:5px;
+	color:#999;
+	}
+.foot .footbox .foot_l{
+	width:400px;
+	float:left;
+	}
+.foot .footbox .foot_r{
+	width:500px;
+	float:right;
+	background:url(../images/footbg.png) left no-repeat;
+	}
+.foot .footbox .foot_l li{
+	float:left;
+	margin-right:5px;
+	background:url(../images/foot_list.png) no-repeat 3px;
+	padding-left:12px;
+	}
+.foot .footbox .foot_l li a{
+	color:#666;
+	}
+.foot .footbox .foot_l li a:hover{
+	color:#f00;
+	}
+.foot .footbox .foot_l p{
+	margin-top:15px;
+	line-height:20px;
+	}
+.foot .footbox .foot_r p{
+	width:220px;
+	float:left;
+	padding-left:120px;
+	line-height:20px;
+	margin-top:15px;
+	color:#0066cb;
+	text-align:right;
+	}
+.foot .footbox .foot_r a.logo{
+	display:block;
+	width:154px;
+	height:62px;
+	background:url(../images/foot_logo_gray.png) no-repeat;
+	float:right;
+	}
+.foot .footbox .foot_r a:hover.logo{
+	background:url(../images/foot_logo.png) no-repeat;
+	}
+/*百度统计样式*/
+.foot .footbox .foot_l p.img{
+	margin-top:-5px;
+	}
+.foot .footbox .foot_l p img{
+	position:relative;
+	top:5px;
+	left:3px;
+	}
+/*微信推广样式*/
+.leftbox{
+	position:fixed;
+	top:130px;
+	left:10px;
+	width:130px;
+	background-color:#50a8fd;
+	color:#fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+.leftbox .floor0{
+	margin:0 25px;
+	padding:5px;
+	background-color:#066acc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+	top:-10px;
+	}
+.leftbox .floor1,.leftbox .floor2,.leftbox .floor3,.leftbox .floor4{
+	border-top:#fff 1px dashed;
+	cursor:pointer;
+	line-height:20px;
+	font-size:14px;
+	}
+.leftbox .floor3{
+	padding:5px;
+	}
+.leftbox .floor3:hover{
+	padding:5px;
+	cursor:pointer;
+	background-color:#f70;
+	}
+.leftbox a{
+	color:#fff;
+	text-decoration:none;
+	padding:5px;
+	display:block;
+	font-size:14px;
+	}
+.leftbox a span{
+	font-family:Verdana, Geneva, sans-serif;
+	}
+.leftbox a:hover{
+	text-decoration:underline;
+	background-color:#f70;
+	}

@@ -1,0 +1,10 @@
+/*评论*/
+.pinglun{width:638px;color:#000;background-image:url(image/listtopbg.gif);background-repeat:repeat-x;background-position:top;border:1px solid #CCC;overflow:auto;padding-bottom:8px;}
+.plk{width:630px;}
+.neirong{width:555px;line-height:20px;float:right;}
+.img123{width:60px;float:left;height:52px;border:1px solid #CCC;margin-left:3px;margin-top:5px;}
+.img123 img{padding:2px;}
+.pl{height:22px;margin-left:8px;width:505px;margin-top:10px;font-weight:bold;}
+.pinglun .plk #form1{width:542px;overflow:hidden;float:left;margin-left:15px;margin-top: 5px;}
+.fabu{margin-top:9px;}
+.pinglun .plk #form1 .fabu button{float:right;}

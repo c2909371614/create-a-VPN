@@ -1,0 +1,38 @@
+一些工具的总结分享
+
+刷题网站：推荐洛谷中文题面，初学一门语言时去刷刷简单题
+https://www.luogu.org
+
+git and github
+
+《git创建远程仓库并上传代码到远程仓库中》 
+https://blog.csdn.net/liuweixiao520/article/details/78971221?utm_source=app
+《Git常用命令详解》, https://blog.csdn.net/weelyy/article/details/82823798?utm_source=app
+教学视频：https://b23.tv/av10475153/p1
+
+git不会用可以下一个Sourcetree用用
+
+文本编辑器推荐：
+markdown 建议使用Typora书写markdown文本，可转pdf,doxc等
+
+各种文档格式相互转换工具推荐
+
+Adobe Arobat Pro DC
+
+简单代码编写推荐使用Sublime
+
+远程协助软件
+TeamViewer
+
+录频直播软件:
+OBS
+直播平台推荐B站
+
+
+https://blog.csdn.net/lupengCSDN/article/details/80279177搜狗输入法ubuntu
+
+https://blog.csdn.net/qq_34638161/article/details/81271977  Ubuntu wine教程
+
+
+----作者：机器人学院网络181 曹鹏霄 
+----时间：2019.10.5

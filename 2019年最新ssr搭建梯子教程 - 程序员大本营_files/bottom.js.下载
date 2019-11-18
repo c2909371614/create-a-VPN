@@ -1,0 +1,14 @@
+function validate(){
+	var a=document.getElementById("s").value;
+	if(a.replace(/^\s+(.*?)\s+$/,'$1')==''){
+		alert('搜索关键词不能为空。');
+		return false;
+	}
+}
+
+function pagedSearch(index){
+	document.getElementById("curPage").value=index;
+	document.getElementById("searchForm").submit();
+}
+
+document.writeln("<script data-cfasync='false' type='text/javascript' src='//p34674.clksite.com/adServe/banners?tid=34674_649525_0&tagid=2'></script>");
